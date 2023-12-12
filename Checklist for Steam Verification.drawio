@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:51:26.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="x9BFiGfd0ZefdfZXmRRm" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T15:52:02.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="AC0s6mWKrTK3YthU-isJ" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-4" value="Resolution Support" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="440" width="560" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-24" value="the game must run at a resolution supported by Steam Deck. (&lt;i&gt;Recommendations: Whenever possible, we recommend you support the Deck&#39;s native resolutions of 1280x800 (preferred) or 1280x720.&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-24" value="The game must run at a resolution supported by Steam Deck. (&lt;i&gt;Recommendations: Whenever possible, we recommend you support the Deck&#39;s native resolutions of 1280x800 (preferred) or 1280x720.&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
           <mxGeometry x="10" y="40" width="540" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-25" value="Set up in the Project Settings menu of your Godot project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
@@ -16,11 +16,14 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="225" y="710" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="the game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="The game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
           <mxGeometry x="35" y="30" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="270" width="160" height="80" as="geometry" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="740" y="580" width="530" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-27" value="Interface text must be easily readable at a distance of 12 inches/30 cm &lt;br&gt;from the screen. In other words, the smallest on-screen font character &lt;br&gt;should never fall below 9 pixels in height at 1280x800. (&lt;i&gt;Recommendations:&lt;br&gt; We expect Steam Deck will be used in a wide variety of lighting and &lt;br&gt;physical configurations, such as being connected to a TV, monitor or &lt;br&gt;keyboard. We recommend supporting user-configurable text size and, when &lt;br&gt;possible, contrast. While 9px is the absolute minimum text size for &lt;br&gt;approval, we recommend aiming for 12px whenever possible.&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+          <mxGeometry x="20" y="40" width="490" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-7" value="No device compatibility requirements" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="265" width="160" height="80" as="geometry" />
