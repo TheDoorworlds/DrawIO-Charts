@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T16:14:04.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="vlPwSKBZkMaqipTQCd-a" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T16:16:42.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="kuvh1lZlm1MYbFoxKjnY" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
-    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pAkYzeAB4W399V6Kurm9-37" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;SteamDeck Verification Checklist&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="DuCYuQeuHjRbq4vLOvyN-1" value="View the full &lt;a href=&quot;https://partner.steamgames.com/doc/steamdeck/compat&quot;&gt;Steam Deck Compatibility Review Process&lt;/a&gt; from Valve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-37" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;SteamDeck Verification Checklist&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="130" y="80" width="590" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="pAkYzeAB4W399V6Kurm9-37" vertex="1" collapsed="1">
           <mxGeometry y="30" width="590" height="30" as="geometry">
             <mxRectangle y="30" width="590" height="120" as="alternateBounds" />
           </mxGeometry>
@@ -54,16 +57,16 @@
             <mxRectangle y="395" width="500" height="335" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-1" value="See &lt;a href=&quot;https://partner.steamgames.com/doc/api/ISteamUtils#ShowFloatingGamepadTextInput&quot;&gt;Steamworks API Reference&lt;/a&gt; for showing on-screen keyboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-1" value="See &lt;a href=&quot;https://partner.steamgames.com/doc/api/ISteamUtils#ShowFloatingGamepadTextInput&quot;&gt;Steamworks API Reference&lt;/a&gt; for showing on-screen keyboard" style="rounded=0;whiteSpace=wrap;html=1;" parent="pC0vIboM5VZAy-pBozo2-3" vertex="1">
           <mxGeometry x="139.95999999999998" y="270" width="210" height="53.57" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-17" value=" If your game requires text input (eg., for naming a character or a save file), you must either use a &lt;a rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/steamdeck/recommendations#Input&quot;&gt;Steamworks API for text entry&lt;/a&gt; to open the on-screen keyboard for players using a controller, or have your own built-in entry that allows users to enter text in their &lt;br&gt;language using only a controller." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-17" value=" If your game requires text input (eg., for naming a character or a save file), you must either use a &lt;a rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/steamdeck/recommendations#Input&quot;&gt;Steamworks API for text entry&lt;/a&gt; to open the on-screen keyboard for players using a controller, or have your own built-in entry that allows users to enter text in their &lt;br&gt;language using only a controller." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-3" vertex="1">
           <mxGeometry x="9.91" y="39" width="470.09" height="81.43" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-19" value="Call either &#39;showFloatingGamepadTextInput()` or `showGamepadTextInput()` as your project dictates when it requires text input from the user, as when choosing a screen name, or input inventory quantities.&lt;br&gt;&lt;a href=&quot;https://godotsteam.com/classes/utils/#showfloatinggamepadtextinput&quot;&gt;GodotSteam Docs for GamepadTextInput functions&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-19" value="Call either &#39;showFloatingGamepadTextInput()` or `showGamepadTextInput()` as your project dictates when it requires text input from the user, as when choosing a screen name, or input inventory quantities.&lt;br&gt;&lt;a href=&quot;https://godotsteam.com/classes/utils/#showfloatinggamepadtextinput&quot;&gt;GodotSteam Docs for GamepadTextInput functions&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="pC0vIboM5VZAy-pBozo2-3" vertex="1">
           <mxGeometry x="23.76" y="135.71857142857144" width="452.49" height="108.57142857142858" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-20" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Display&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-20" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Display&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="pAkYzeAB4W399V6Kurm9-37" vertex="1" collapsed="1">
           <mxGeometry y="60" width="590" height="30" as="geometry">
             <mxRectangle y="60" width="590" height="120" as="alternateBounds" />
           </mxGeometry>
@@ -73,10 +76,10 @@
             <mxRectangle y="30" width="500" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-24" value="&lt;div align=&quot;left&quot;&gt;The game must run at a resolution supported by Steam Deck.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(&lt;i&gt;Recommendations: Whenever possible, we recommend you support the Deck&#39;s native resolutions of 1280x800 (preferred) or 1280x720.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-24" value="&lt;div align=&quot;left&quot;&gt;The game must run at a resolution supported by Steam Deck.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(&lt;i&gt;Recommendations: Whenever possible, we recommend you support the Deck&#39;s native resolutions of 1280x800 (preferred) or 1280x720.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-4" vertex="1">
           <mxGeometry x="10" y="40" width="540" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-25" value="Set up in the Project Settings menu of your Godot project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-25" value="Set up in the Project Settings menu of your Godot project" style="rounded=0;whiteSpace=wrap;html=1;" parent="pC0vIboM5VZAy-pBozo2-4" vertex="1">
           <mxGeometry x="160" y="130" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-20" vertex="1" collapsed="1">
@@ -84,7 +87,7 @@
             <mxRectangle y="60" width="560" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="The game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="The game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-5" vertex="1">
           <mxGeometry x="22.5" y="30" width="515" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-20" vertex="1" collapsed="1">
@@ -92,19 +95,19 @@
             <mxRectangle y="90" width="560" height="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-27" value="&lt;div align=&quot;left&quot;&gt;Interface text must be easily readable at a distance of 12 inches/30 cm &lt;br&gt;from the screen. In other words, the smallest on-screen font character &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;should never fall below 9 pixels in height at 1280x800.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(&lt;i&gt;Recommendations: &lt;/i&gt;&lt;i&gt;We expect Steam Deck will be used in a wide variety of lighting and &lt;/i&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;physical configurations, such as being connected to a TV, monitor or keyboard. We recommend supporting user-configurable text size and, when &lt;/i&gt;&lt;i&gt;possible, contrast. While 9px is the absolute minimum text size for &lt;/i&gt;&lt;i&gt;approval, we recommend aiming for 12px whenever possible.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-27" value="&lt;div align=&quot;left&quot;&gt;Interface text must be easily readable at a distance of 12 inches/30 cm &lt;br&gt;from the screen. In other words, the smallest on-screen font character &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;should never fall below 9 pixels in height at 1280x800.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(&lt;i&gt;Recommendations: &lt;/i&gt;&lt;i&gt;We expect Steam Deck will be used in a wide variety of lighting and &lt;/i&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;physical configurations, such as being connected to a TV, monitor or keyboard. We recommend supporting user-configurable text size and, when &lt;/i&gt;&lt;i&gt;possible, contrast. While 9px is the absolute minimum text size for &lt;/i&gt;&lt;i&gt;approval, we recommend aiming for 12px whenever possible.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-6" vertex="1">
           <mxGeometry x="20" y="40" width="490" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pC0vIboM5VZAy-pBozo2-6" source="pAkYzeAB4W399V6Kurm9-28" target="pAkYzeAB4W399V6Kurm9-29">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="pC0vIboM5VZAy-pBozo2-6" source="pAkYzeAB4W399V6Kurm9-28" target="pAkYzeAB4W399V6Kurm9-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-28" value="Set up Theme with correct font sizing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-28" value="Set up Theme with correct font sizing" style="rounded=0;whiteSpace=wrap;html=1;" parent="pC0vIboM5VZAy-pBozo2-6" vertex="1">
           <mxGeometry x="30" y="190" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checking for that feature using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checking for that feature using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-6" vertex="1">
           <mxGeometry x="220" y="190" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-31" value="Seamlessness" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;fillStyle=solid;glass=0;swimlaneLine=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-31" value="Seamlessness" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;fillStyle=solid;glass=0;swimlaneLine=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="pAkYzeAB4W399V6Kurm9-37" vertex="1" collapsed="1">
           <mxGeometry y="90" width="590" height="30" as="geometry">
             <mxRectangle y="90" width="590" height="90" as="alternateBounds" />
           </mxGeometry>
@@ -114,7 +117,7 @@
             <mxRectangle y="30" width="500" height="115" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-35" value="&lt;div align=&quot;left&quot;&gt;The app must not present the user with information that the Deck software (ie., specific Linux distribution) or hardware (ie., GPU) is unsupported.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-7">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-35" value="&lt;div align=&quot;left&quot;&gt;The app must not present the user with information that the Deck software (ie., specific Linux distribution) or hardware (ie., GPU) is unsupported.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-7" vertex="1">
           <mxGeometry x="20" y="45" width="460" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-8" value="Launchers*" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-31" vertex="1" collapsed="1">
@@ -122,7 +125,7 @@
             <mxRectangle y="60" width="500" height="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-36" value="&lt;div align=&quot;left&quot;&gt;For games with launchers, those launchers also must meet the requirements listed here, including full navigability with a controller.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt; (&lt;i&gt;Recommendations: We recommend strongly against requiring the user to navigate a launcher to play your game.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-8">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-36" value="&lt;div align=&quot;left&quot;&gt;For games with launchers, those launchers also must meet the requirements listed here, including full navigability with a controller.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt; (&lt;i&gt;Recommendations: We recommend strongly against requiring the user to navigate a launcher to play your game.&lt;/i&gt;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="pC0vIboM5VZAy-pBozo2-8" vertex="1">
           <mxGeometry x="10" y="30" width="470" height="78" as="geometry" />
         </mxCell>
       </root>
