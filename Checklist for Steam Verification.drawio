@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:48:42.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="vnpCebNMHG6chmN4VEZo" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T15:49:12.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="U3b8yS30sSgW-wO_1YQh" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="670" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="265" width="500" height="425" as="geometry" />
+          <mxGeometry x="110" y="265" width="500" height="730" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-1" value="Controller Support" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
           <mxGeometry y="30" width="500" height="30" as="geometry">
@@ -68,19 +68,19 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-15" value="&lt;p style=&quot;font-size: 13px;&quot;&gt;When using Steam Deck&#39;s physical controls, on-screen glyphs must either match Deck button names, or match Xbox 360/One button names. Mouse and keyboard glyphs should not be shown if they are not the active input. Interacting with any physical Deck controls using the default configuration must not show non-controller glyphs. (&lt;i style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;Recommendations: We strongly recommend using the&amp;nbsp;&lt;a style=&quot;border: 0px; margin: 0px; padding: 0px;&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/api/isteaminput&quot;&gt;SteamInput API&lt;/a&gt;, which will automatically show the correct glyphs regardless of which input device the user is using.&lt;/i&gt;&lt;span style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;recursiveResize=0;strokeColor=none;fillColor=none;" parent="pC0vIboM5VZAy-pBozo2-2" vertex="1">
           <mxGeometry x="40" y="30" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="395" width="500" height="30" as="geometry">
-            <mxRectangle x="250" y="410" width="525" height="380" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
+          <mxGeometry y="395" width="500" height="335" as="geometry">
+            <mxRectangle y="395" width="500" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-1" value="See &lt;a href=&quot;https://partner.steamgames.com/doc/api/ISteamUtils#ShowFloatingGamepadTextInput&quot;&gt;Steamworks API Reference&lt;/a&gt; for showing on-screen keyboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
-          <mxGeometry x="157.51" y="270" width="210" height="53.57" as="geometry" />
+          <mxGeometry x="139.95999999999998" y="270" width="210" height="53.57" as="geometry" />
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-17" value=" If your game requires text input (eg., for naming a character or a save file), you must either use a &lt;a rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/steamdeck/recommendations#Input&quot;&gt;Steamworks API for text entry&lt;/a&gt; to open the on-screen keyboard for players using a controller, or have your own built-in entry that allows users to enter text in their &lt;br&gt;language using only a controller." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
-          <mxGeometry x="9.911999999999999" y="38.99714285714286" width="505.19" height="81.42857142857143" as="geometry" />
+          <mxGeometry x="9.91" y="39" width="470.09" height="81.43" as="geometry" />
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-19" value="Call either &#39;showFloatingGamepadTextInput()` or `showGamepadTextInput()` as your project dictates when it requires text input from the user, as when choosing a screen name, or input inventory quantities.&lt;br&gt;&lt;a href=&quot;https://godotsteam.com/classes/utils/#showfloatinggamepadtextinput&quot;&gt;GodotSteam Docs for GamepadTextInput functions&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
-          <mxGeometry x="40" y="135.71857142857144" width="452.49" height="108.57142857142858" as="geometry" />
+          <mxGeometry x="23.76" y="135.71857142857144" width="452.49" height="108.57142857142858" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
