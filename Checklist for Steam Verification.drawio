@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T18:12:27.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="jFcuT9uk02qW8XNlnhg-" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-12T18:13:53.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="2kA_Cq8_poEHz3GjYiwF" version="22.1.7" type="github" pages="2">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamDeck Verification Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12,20 +12,20 @@
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="pAkYzeAB4W399V6Kurm9-37" vertex="1" collapsed="1">
           <mxGeometry y="120" width="650" height="30" as="geometry">
-            <mxRectangle y="120" width="650" height="120" as="alternateBounds" />
+            <mxRectangle y="120" width="650" height="810" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-1" value="Controller Support" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="30" width="650" height="30" as="geometry">
-            <mxRectangle y="30" width="650" height="110" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-1" value="Controller Support" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;recursiveResize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
+          <mxGeometry y="30" width="650" height="110" as="geometry">
+            <mxRectangle y="30" width="650" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-13" value="&amp;nbsp;Your game must support Steam Deck&#39;s physical controls. The default controller configuration must provide users with the ability to access all content. Players must not need to adjust any in-game settings in order to enable controller support or this configuration." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="pC0vIboM5VZAy-pBozo2-1" vertex="1">
           <mxGeometry x="10" y="30" width="630" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-2" value="Controller Glyphs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="60" width="650" height="30" as="geometry">
-            <mxRectangle y="60" width="650" height="335" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-2" value="Controller Glyphs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;recursiveResize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
+          <mxGeometry y="140" width="650" height="335" as="geometry">
+            <mxRectangle y="140" width="650" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-15" value="&lt;p style=&quot;font-size: 13px;&quot;&gt;When using Steam Deck&#39;s physical controls, on-screen glyphs must either match Deck button names, or match Xbox 360/One button names. Mouse and keyboard glyphs should not be shown if they are not the active input. Interacting with any physical Deck controls using the default configuration must not show non-controller glyphs. (&lt;i style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;Recommendations: We strongly recommend using the&amp;nbsp;&lt;a style=&quot;border: 0px; margin: 0px; padding: 0px;&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/api/isteaminput&quot;&gt;SteamInput API&lt;/a&gt;, which will automatically show the correct glyphs regardless of which input device the user is using.&lt;/i&gt;&lt;span style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;recursiveResize=0;strokeColor=none;fillColor=none;" parent="pC0vIboM5VZAy-pBozo2-2" vertex="1">
@@ -55,9 +55,9 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="f2NvK9U8G01JnPXXEeDP-1" source="pC0vIboM5VZAy-pBozo2-19" target="pC0vIboM5VZAy-pBozo2-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="90" width="650" height="30" as="geometry">
-            <mxRectangle y="475" width="650" height="335" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#d5e8d4;strokeColor=#82b366;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
+          <mxGeometry y="475" width="650" height="335" as="geometry">
+            <mxRectangle y="475" width="650" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2NvK9U8G01JnPXXEeDP-2" value="" style="group" parent="pC0vIboM5VZAy-pBozo2-3" vertex="1" connectable="0">
@@ -158,35 +158,35 @@
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-20" value="Header Capsule - 460 x 215 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="qBdc02s06b4DXhgkFweo-2" vertex="1" collapsed="1">
           <mxGeometry y="90" width="530" height="30" as="geometry">
-            <mxRectangle y="90" width="530" height="180" as="alternateBounds" />
+            <mxRectangle y="90" width="530" height="330" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-24" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1" collapsed="1">
-          <mxGeometry y="30" width="530" height="30" as="geometry">
-            <mxRectangle y="30" width="510" height="80" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-24" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1">
+          <mxGeometry y="30" width="530" height="80" as="geometry">
+            <mxRectangle y="30" width="530" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-25" value="This appears at the top of the store page, in the &#39;Recommended For You&#39; section, in browse views on Big Picture mode, and for Daily Deals if applicable." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qBdc02s06b4DXhgkFweo-24" vertex="1">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-32" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1" collapsed="1">
-          <mxGeometry y="60" width="530" height="30" as="geometry">
-            <mxRectangle y="110" width="510" height="80" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-32" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1">
+          <mxGeometry y="110" width="530" height="80" as="geometry">
+            <mxRectangle y="110" width="530" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-33" value="This image should focus on the branding of your product. For best results, please use the same artwork that you use for any retail box or marketing and make sure the logo and game name is clearly legible." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qBdc02s06b4DXhgkFweo-32" vertex="1">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-34" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1" collapsed="1">
-          <mxGeometry y="90" width="530" height="30" as="geometry">
-            <mxRectangle y="190" width="510" height="80" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-34" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1">
+          <mxGeometry y="190" width="530" height="80" as="geometry">
+            <mxRectangle y="190" width="530" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-35" value="Please provide &#39;460px x 215px&#39; . A &#39;292px x 136px&#39; image will be automatically generated from this." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="qBdc02s06b4DXhgkFweo-34" vertex="1">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rqxSRLIoyrN25bZTarVw-51" value="" style="rounded=0;whiteSpace=wrap;html=1;container=1;collapsible=0;dropTarget=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="qBdc02s06b4DXhgkFweo-20" vertex="1">
-          <mxGeometry y="120" width="530" height="60" as="geometry" />
+          <mxGeometry y="270" width="530" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rqxSRLIoyrN25bZTarVw-52" value="Designed &amp;amp; Saved" style="rounded=1;fillColor=#F0F2F5;strokeColor=#D8DCE3;align=left;verticalAlign=middle;fontStyle=0;fontSize=12;labelPosition=right;verticalLabelPosition=middle;spacingLeft=10;html=1;shadow=0;dashed=0" parent="rqxSRLIoyrN25bZTarVw-51" vertex="1">
           <mxGeometry x="200" y="13" width="12" height="12" as="geometry" />
