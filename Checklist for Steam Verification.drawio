@@ -1,22 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T16:03:45.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="XLd7CMrR6e9Fd96x3xik" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T16:08:35.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="yb3VTHwnSGuHbUyERXu-" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="265" width="500" height="120" as="geometry" />
+        <mxCell id="pAkYzeAB4W399V6Kurm9-37" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;SteamDeck Verification Checklist&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+          <mxGeometry y="30" width="590" height="30" as="geometry">
+            <mxRectangle y="30" width="590" height="120" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-1" value="Controller Support" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="30" width="500" height="30" as="geometry">
-            <mxRectangle y="30" width="500" height="110" as="alternateBounds" />
+          <mxGeometry y="30" width="590" height="30" as="geometry">
+            <mxRectangle y="30" width="590" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-13" value="&amp;nbsp;Your game must support Steam Deck&#39;s physical controls. The default controller configuration must provide users with the ability to access all content. Players must not need to adjust any in-game settings in order to enable controller support or this configuration." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="pC0vIboM5VZAy-pBozo2-1" vertex="1">
           <mxGeometry x="10" y="30" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-2" value="Controller Glyphs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="60" width="500" height="30" as="geometry">
+          <mxGeometry y="60" width="590" height="30" as="geometry">
             <mxRectangle y="60" width="500" height="335" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -45,7 +50,7 @@
           <mxGeometry x="40" y="30" width="410" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
-          <mxGeometry y="90" width="500" height="30" as="geometry">
+          <mxGeometry y="90" width="590" height="30" as="geometry">
             <mxRectangle y="395" width="500" height="335" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -58,11 +63,13 @@
         <mxCell id="pAkYzeAB4W399V6Kurm9-19" value="Call either &#39;showFloatingGamepadTextInput()` or `showGamepadTextInput()` as your project dictates when it requires text input from the user, as when choosing a screen name, or input inventory quantities.&lt;br&gt;&lt;a href=&quot;https://godotsteam.com/classes/utils/#showfloatinggamepadtextinput&quot;&gt;GodotSteam Docs for GamepadTextInput functions&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
           <mxGeometry x="23.76" y="135.71857142857144" width="452.49" height="108.57142857142858" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-20" value="&lt;div&gt;Display&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="510" width="500" height="120" as="geometry" />
+        <mxCell id="pAkYzeAB4W399V6Kurm9-20" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;Display&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+          <mxGeometry y="60" width="590" height="30" as="geometry">
+            <mxRectangle y="60" width="590" height="120" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-4" value="Resolution Support" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-20" vertex="1" collapsed="1">
-          <mxGeometry y="30" width="500" height="30" as="geometry">
+          <mxGeometry y="30" width="590" height="30" as="geometry">
             <mxRectangle y="30" width="500" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -73,7 +80,7 @@
           <mxGeometry x="160" y="130" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-20" vertex="1" collapsed="1">
-          <mxGeometry y="60" width="500" height="30" as="geometry">
+          <mxGeometry y="60" width="590" height="30" as="geometry">
             <mxRectangle y="60" width="560" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -81,7 +88,7 @@
           <mxGeometry x="22.5" y="30" width="515" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-20" vertex="1" collapsed="1">
-          <mxGeometry y="90" width="500" height="30" as="geometry">
+          <mxGeometry y="90" width="590" height="30" as="geometry">
             <mxRectangle y="90" width="560" height="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -97,11 +104,13 @@
         <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checking for that feature using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
           <mxGeometry x="220" y="190" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-31" value="Seamlessness" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=none;fillStyle=solid;glass=0;swimlaneLine=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="240" width="500" height="90" as="geometry" />
+        <mxCell id="pAkYzeAB4W399V6Kurm9-31" value="Seamlessness" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=none;fillStyle=solid;glass=0;swimlaneLine=1;rounded=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" collapsed="1" parent="pAkYzeAB4W399V6Kurm9-37">
+          <mxGeometry y="90" width="590" height="30" as="geometry">
+            <mxRectangle y="90" width="590" height="90" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-7" value="No device compatibility warnings" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-31" vertex="1" collapsed="1">
-          <mxGeometry y="30" width="500" height="30" as="geometry">
+          <mxGeometry y="30" width="590" height="30" as="geometry">
             <mxRectangle y="30" width="500" height="115" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -109,7 +118,7 @@
           <mxGeometry x="20" y="45" width="460" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-8" value="Launchers*" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-31" vertex="1" collapsed="1">
-          <mxGeometry y="60" width="500" height="30" as="geometry">
+          <mxGeometry y="60" width="590" height="30" as="geometry">
             <mxRectangle y="60" width="500" height="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
