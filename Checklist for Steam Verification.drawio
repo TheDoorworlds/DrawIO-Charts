@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:52:02.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="AC0s6mWKrTK3YthU-isJ" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T15:54:05.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="Mgf3761KkuodPN_nf3NK" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,6 +24,15 @@
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-27" value="Interface text must be easily readable at a distance of 12 inches/30 cm &lt;br&gt;from the screen. In other words, the smallest on-screen font character &lt;br&gt;should never fall below 9 pixels in height at 1280x800. (&lt;i&gt;Recommendations:&lt;br&gt; We expect Steam Deck will be used in a wide variety of lighting and &lt;br&gt;physical configurations, such as being connected to a TV, monitor or &lt;br&gt;keyboard. We recommend supporting user-configurable text size and, when &lt;br&gt;possible, contrast. While 9px is the absolute minimum text size for &lt;br&gt;approval, we recommend aiming for 12px whenever possible.&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
           <mxGeometry x="20" y="40" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pC0vIboM5VZAy-pBozo2-6" source="pAkYzeAB4W399V6Kurm9-28" target="pAkYzeAB4W399V6Kurm9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-28" value="Set up Theme with correct font sizing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+          <mxGeometry x="20" y="190" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checknig for that featur using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+          <mxGeometry x="190" y="190" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-7" value="No device compatibility requirements" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="265" width="160" height="80" as="geometry" />
