@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T18:59:01.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="c0UOCQ6ooiaTLyBS-MFu" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-12T18:59:17.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="aLgXKMLpndgJzpnEHS6e" version="22.1.7" type="github" pages="2">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamDeck Verification Checklist">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -714,7 +714,7 @@
           <mxGeometry y="90" width="530" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6xnrUViDqxWEm15aTgzm-1" value="&lt;b&gt;Key&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="140" height="280" as="geometry" />
+          <mxGeometry x="40" y="120" width="140" height="310" as="geometry" />
         </mxCell>
         <mxCell id="6xnrUViDqxWEm15aTgzm-2" value="Task not started" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="6xnrUViDqxWEm15aTgzm-1">
           <mxGeometry x="15" y="30" width="110" height="40" as="geometry" />
@@ -727,6 +727,9 @@
         </mxCell>
         <mxCell id="6xnrUViDqxWEm15aTgzm-5" value="Informational" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="6xnrUViDqxWEm15aTgzm-1">
           <mxGeometry x="15" y="210" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gEJUr0IcJ89qVhzFldnx-1" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;alt + c to copy the style&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;alt + v to paste the style&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="6xnrUViDqxWEm15aTgzm-1">
+          <mxGeometry x="5" y="270" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
