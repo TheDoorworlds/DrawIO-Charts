@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:49:12.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="U3b8yS30sSgW-wO_1YQh" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T15:51:26.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="x9BFiGfd0ZefdfZXmRRm" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pC0vIboM5VZAy-pBozo2-4" value="Resolution Support" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="140" width="160" height="80" as="geometry" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-4" value="Resolution Support" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="560" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="550" width="160" height="80" as="geometry" />
+        <mxCell id="pAkYzeAB4W399V6Kurm9-24" value="the game must run at a resolution supported by Steam Deck. (&lt;i&gt;Recommendations: Whenever possible, we recommend you support the Deck&#39;s native resolutions of 1280x800 (preferred) or 1280x720.&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
+          <mxGeometry x="10" y="40" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-25" value="Set up in the Project Settings menu of your Godot project" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-4">
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="225" y="710" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="the game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
+          <mxGeometry x="35" y="30" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="270" width="160" height="80" as="geometry" />
@@ -25,11 +34,8 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-12" value="Seamlessness" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="78" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-10" value="&lt;div&gt;Input&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="265" width="500" height="730" as="geometry" />
+          <mxGeometry x="110" y="265" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-1" value="Controller Support" style="rounded=0;whiteSpace=wrap;html=1;container=1;verticalAlign=top;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
           <mxGeometry y="30" width="500" height="30" as="geometry">
@@ -39,9 +45,9 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-13" value="&amp;nbsp;Your game must support Steam Deck&#39;s physical controls. The default controller configuration must provide users with the ability to access all content. Players must not need to adjust any in-game settings in order to enable controller support or this configuration." style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;strokeColor=none;" parent="pC0vIboM5VZAy-pBozo2-1" vertex="1">
           <mxGeometry x="10" y="30" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-2" value="Controller Glyphs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
-          <mxGeometry y="60" width="500" height="335" as="geometry">
-            <mxRectangle y="60" width="500" height="30" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-2" value="Controller Glyphs" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;recursiveResize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
+          <mxGeometry y="60" width="500" height="30" as="geometry">
+            <mxRectangle y="60" width="500" height="335" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="pC0vIboM5VZAy-pBozo2-2" source="pC0vIboM5VZAy-pBozo2-16" target="pC0vIboM5VZAy-pBozo2-17" edge="1">
@@ -68,9 +74,9 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-15" value="&lt;p style=&quot;font-size: 13px;&quot;&gt;When using Steam Deck&#39;s physical controls, on-screen glyphs must either match Deck button names, or match Xbox 360/One button names. Mouse and keyboard glyphs should not be shown if they are not the active input. Interacting with any physical Deck controls using the default configuration must not show non-controller glyphs. (&lt;i style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;Recommendations: We strongly recommend using the&amp;nbsp;&lt;a style=&quot;border: 0px; margin: 0px; padding: 0px;&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://partner.steamgames.com/doc/api/isteaminput&quot;&gt;SteamInput API&lt;/a&gt;, which will automatically show the correct glyphs regardless of which input device the user is using.&lt;/i&gt;&lt;span style=&quot;font-family: &amp;quot;Motiva Sans&amp;quot;, sans-serif;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;recursiveResize=0;strokeColor=none;fillColor=none;" parent="pC0vIboM5VZAy-pBozo2-2" vertex="1">
           <mxGeometry x="40" y="30" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1">
-          <mxGeometry y="395" width="500" height="335" as="geometry">
-            <mxRectangle y="395" width="500" height="30" as="alternateBounds" />
+        <mxCell id="pC0vIboM5VZAy-pBozo2-3" value="Text Input" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;recursiveResize=0;" parent="pAkYzeAB4W399V6Kurm9-10" vertex="1" collapsed="1">
+          <mxGeometry y="90" width="500" height="30" as="geometry">
+            <mxRectangle y="395" width="500" height="335" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-1" value="See &lt;a href=&quot;https://partner.steamgames.com/doc/api/ISteamUtils#ShowFloatingGamepadTextInput&quot;&gt;Steamworks API Reference&lt;/a&gt; for showing on-screen keyboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
@@ -81,6 +87,18 @@
         </mxCell>
         <mxCell id="pAkYzeAB4W399V6Kurm9-19" value="Call either &#39;showFloatingGamepadTextInput()` or `showGamepadTextInput()` as your project dictates when it requires text input from the user, as when choosing a screen name, or input inventory quantities.&lt;br&gt;&lt;a href=&quot;https://godotsteam.com/classes/utils/#showfloatinggamepadtextinput&quot;&gt;GodotSteam Docs for GamepadTextInput functions&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-3">
           <mxGeometry x="23.76" y="135.71857142857144" width="452.49" height="108.57142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-20" value="&lt;div&gt;Display&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-21" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pAkYzeAB4W399V6Kurm9-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-22" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pAkYzeAB4W399V6Kurm9-20">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pAkYzeAB4W399V6Kurm9-23" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pAkYzeAB4W399V6Kurm9-20">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
