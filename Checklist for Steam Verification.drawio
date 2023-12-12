@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T17:54:41.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="UzAFkL2NzMJNisYNAZ9Z" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-12T17:55:02.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="cyQHg7fWhtz4feCJmD4W" version="22.1.7" type="github" pages="2">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamDeck Verification Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -451,7 +451,7 @@
         <mxCell id="qBdc02s06b4DXhgkFweo-101" value="This icon will not appear properly on your store page until your app is published as &#39;Coming Soon&#39; or as fully released." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-100">
           <mxGeometry x="65.81" y="12.5" width="424.19" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-143" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Library Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-237">
+        <mxCell id="qBdc02s06b4DXhgkFweo-143" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Library Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;flipH=0;flipV=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-237">
           <mxGeometry y="140" width="520" height="180" as="geometry">
             <mxRectangle y="140" width="520" height="40" as="alternateBounds" />
           </mxGeometry>
