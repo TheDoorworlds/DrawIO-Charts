@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T15:56:01.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="TyZSxLdszram3g-oMnOn" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T15:57:24.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="tqdL3Pgr6su_lGXEovfh" version="22.1.7" type="github">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamworksSDK Checklist">
     <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="pC0vIboM5VZAy-pBozo2-5" value="Default Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="225" y="710" width="400" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="The game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-26" value="The game must ship with a default configuration on Deck that results in a playable framerate." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-5">
           <mxGeometry x="35" y="30" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-6" value="Text Legibility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="pAkYzeAB4W399V6Kurm9-28" value="Set up Theme with correct font sizing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
           <mxGeometry x="20" y="190" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checknig for that featur using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
+        <mxCell id="pAkYzeAB4W399V6Kurm9-29" value="SteamDeck-specific theme can be chosen and applied at runtime by adding a `steamdeck` feature tag to the export template, then checking for that feature using OS.has_feature(&quot;steamdeck&quot;) call" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="pC0vIboM5VZAy-pBozo2-6">
           <mxGeometry x="190" y="190" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pC0vIboM5VZAy-pBozo2-7" value="No device compatibility requirements" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=1;" parent="1" vertex="1">
