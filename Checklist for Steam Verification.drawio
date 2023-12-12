@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T17:43:10.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="keufml6kk0iNzhdJLFnJ" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-12T17:44:10.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="Hz-pPd6kMjYqym8HSUEx" version="22.1.7" type="github" pages="2">
   <diagram id="k-BuP4soah1h3poQQQ5J" name="SteamDeck Verification Checklist">
     <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,8 +139,10 @@
         <mxCell id="qBdc02s06b4DXhgkFweo-1" value="&lt;a href=&quot;https://partner.steamgames.com/doc/store/assets&quot;&gt;Graphical Assets Overview&lt;/a&gt; from Valve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="10" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Store Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="120" width="510" height="240" as="geometry" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Store Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="190" y="120" width="510" height="40" as="geometry">
+            <mxRectangle x="190" y="120" width="510" height="240" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-20" value="Header Capsule - 460 x 215 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-2">
           <mxGeometry y="30" width="510" height="30" as="geometry">
@@ -369,29 +371,10 @@
         <mxCell id="qBdc02s06b4DXhgkFweo-84" value="Bundles use the same set of assets as other products on Steam, with one addition." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-83">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-11" value="Library Assets" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="570" width="197.5" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-13" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-11">
-          <mxGeometry y="30" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-14" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-11">
-          <mxGeometry y="60" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-15" value="Event Assets" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="380" width="197.5" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-16" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-15">
-          <mxGeometry y="30" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-17" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-15">
-          <mxGeometry y="60" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-18" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="qBdc02s06b4DXhgkFweo-15">
-          <mxGeometry y="90" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-85" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Community Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="360" width="510" height="90" as="geometry" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-85" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Community Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="190" y="360" width="510" height="40" as="geometry">
+            <mxRectangle x="190" y="360" width="510" height="90" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-86" value="Community Icon - 184 x 184 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-85">
           <mxGeometry y="30" width="510" height="30" as="geometry">
@@ -459,12 +442,9 @@
         <mxCell id="qBdc02s06b4DXhgkFweo-101" value="This icon will not appear properly on your store page until your app is published as &#39;Coming Soon&#39; or as fully released." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-100">
           <mxGeometry x="65.81" y="12.5" width="424.19" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-12" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="540" width="197.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-143" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Library Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="450" width="510" height="570" as="geometry">
-            <mxRectangle x="190" y="450" width="210" height="40" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-143" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Library Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="190" y="450" width="510" height="40" as="geometry">
+            <mxRectangle x="190" y="450" width="510" height="240" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-144" value="Library Capsule - 600 x 900 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-143">
@@ -526,40 +506,140 @@
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-160" value="Library Logo - 1280 x 720 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="qBdc02s06b4DXhgkFweo-143">
-          <mxGeometry y="90" width="510" height="480" as="geometry">
+          <mxGeometry y="90" width="510" height="150" as="geometry">
             <mxRectangle y="90" width="510" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-161" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qBdc02s06b4DXhgkFweo-160">
-          <mxGeometry y="30" width="510" height="80" as="geometry">
-            <mxRectangle y="30" width="510" height="30" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-161" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-160">
+          <mxGeometry y="30" width="510" height="30" as="geometry">
+            <mxRectangle y="30" width="510" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-162" value="Appears at the top of a user’s library details page for this product, placed on top of the hero graphic. " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-161">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-163" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qBdc02s06b4DXhgkFweo-160">
-          <mxGeometry y="110" width="510" height="120" as="geometry">
-            <mxRectangle y="110" width="510" height="30" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-163" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-160">
+          <mxGeometry y="60" width="510" height="30" as="geometry">
+            <mxRectangle y="60" width="510" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-164" value="For best results, use the logo that is being used for any retail boxes &lt;br/&gt;or marketing. You’ll want to ensure the logo is both visible and legible&lt;br/&gt; against the hero graphic background. The PNG image should have a &lt;br/&gt;transparent background." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-163">
           <mxGeometry x="65.81" y="15" width="424.19" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-165" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qBdc02s06b4DXhgkFweo-160">
-          <mxGeometry y="230" width="510" height="80" as="geometry">
-            <mxRectangle y="230" width="510" height="30" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-165" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-160">
+          <mxGeometry y="90" width="510" height="30" as="geometry">
+            <mxRectangle y="90" width="510" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-166" value="&lt;strong&gt;&lt;/strong&gt;1280px x 720px (an additional 640px x 360px PNG will be auto-generated from larger file) " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-165">
           <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBdc02s06b4DXhgkFweo-199" value="&lt;div&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qBdc02s06b4DXhgkFweo-160">
-          <mxGeometry y="310" width="510" height="170" as="geometry">
-            <mxRectangle y="230" width="510" height="30" as="alternateBounds" />
+        <mxCell id="qBdc02s06b4DXhgkFweo-199" value="&lt;div&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-160">
+          <mxGeometry y="120" width="510" height="30" as="geometry">
+            <mxRectangle y="120" width="510" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBdc02s06b4DXhgkFweo-200" value="&lt;div&gt;After&lt;br/&gt; upload, you&#39;ll use the preview tool to select the logo&#39;s position. &lt;br/&gt;Options include: left bottom corner, centered top, centered middle, and &lt;br/&gt;centered bottom.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If a hero graphic and logo are not uploaded, the hero area will display a&lt;br/&gt; screenshot from the store, with the application name text overlaid in &lt;br/&gt;the bottom left corner. &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-199">
+          <mxGeometry x="65.81" y="21.25" width="424.19" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-201" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Event Assets&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="510" height="240" as="geometry">
+            <mxRectangle x="190" y="520" width="510" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-202" value="Library Capsule - 600 x 900 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-201">
+          <mxGeometry y="30" width="510" height="30" as="geometry">
+            <mxRectangle y="30" width="510" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-203" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-202">
+          <mxGeometry y="30" width="510" height="30" as="geometry">
+            <mxRectangle y="30" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-204" value="This image is primarily used in the library overview and collection views. " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-203">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-205" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-202">
+          <mxGeometry y="60" width="510" height="30" as="geometry">
+            <mxRectangle y="60" width="510" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-206" value="This should be graphically-centric and give the user some sense of the experience. Please use the key art and logo that is being used for any retail boxes or marketing. Do not include quotes or other strings of text beyond the title of your game. The art should immediately tell the customer something important about your product. The logo should be easily legible against the background." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-205">
+          <mxGeometry x="65.81" y="15" width="424.19" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-207" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-202">
+          <mxGeometry y="90" width="510" height="30" as="geometry">
+            <mxRectangle y="90" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-208" value="600px x 900px (an additional half-size 300px x 450px PNG will be auto-generated from larger file)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-207">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-209" value="Library Hero - 3840 x 1240 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-201">
+          <mxGeometry y="60" width="510" height="30" as="geometry">
+            <mxRectangle y="60" width="510" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-210" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-209">
+          <mxGeometry y="30" width="510" height="30" as="geometry">
+            <mxRectangle y="30" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-211" value="Appears at the top of a user’s library details page for this product. " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-210">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-212" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-209">
+          <mxGeometry y="60" width="510" height="30" as="geometry">
+            <mxRectangle y="60" width="510" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-213" value="&lt;div&gt;This should be a visually rich image that is easily recognizable. For best results, please use the key art and logo that is being used for any retail boxes or marketing. This image cannot include any text.&lt;/div&gt;&lt;br&gt;&lt;div&gt;At the center of the template is a “safe area” of 860px x 380px. This area will remain uncropped across scaling and resizing of the Steam client window. Artwork should extend across the entire template, but critical content should be within the safe area.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For ex: a main character’s face should be entirely in the safe area or risk being cropped. &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-212">
+          <mxGeometry x="60" y="17.5" width="424.19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-214" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-209">
+          <mxGeometry y="90" width="510" height="30" as="geometry">
+            <mxRectangle y="90" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-215" value="3840px x 1240px (an additional half-size 1920px x 620px PNG will be auto-generated from larger file)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-214">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-216" value="Library Logo - 1280 x 720 px" style="swimlane;fontStyle=5;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="qBdc02s06b4DXhgkFweo-201">
+          <mxGeometry y="90" width="510" height="150" as="geometry">
+            <mxRectangle y="90" width="510" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-217" value="&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-216">
+          <mxGeometry y="30" width="510" height="30" as="geometry">
+            <mxRectangle y="30" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-218" value="Appears at the top of a user’s library details page for this product, placed on top of the hero graphic. " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-217">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-219" value="&lt;b&gt;Design&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-216">
+          <mxGeometry y="60" width="510" height="30" as="geometry">
+            <mxRectangle y="60" width="510" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-220" value="For best results, use the logo that is being used for any retail boxes &lt;br/&gt;or marketing. You’ll want to ensure the logo is both visible and legible&lt;br/&gt; against the hero graphic background. The PNG image should have a &lt;br/&gt;transparent background." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-219">
+          <mxGeometry x="65.81" y="15" width="424.19" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-221" value="&lt;div&gt;&lt;b&gt;Size&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-216">
+          <mxGeometry y="90" width="510" height="30" as="geometry">
+            <mxRectangle y="90" width="510" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-222" value="&lt;strong&gt;&lt;/strong&gt;1280px x 720px (an additional 640px x 360px PNG will be auto-generated from larger file) " style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-221">
+          <mxGeometry x="65.81" y="10" width="424.19" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-223" value="&lt;div&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;container=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" collapsed="1" parent="qBdc02s06b4DXhgkFweo-216">
+          <mxGeometry y="120" width="510" height="30" as="geometry">
+            <mxRectangle y="120" width="510" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBdc02s06b4DXhgkFweo-224" value="&lt;div&gt;After&lt;br/&gt; upload, you&#39;ll use the preview tool to select the logo&#39;s position. &lt;br/&gt;Options include: left bottom corner, centered top, centered middle, and &lt;br/&gt;centered bottom.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If a hero graphic and logo are not uploaded, the hero area will display a&lt;br/&gt; screenshot from the store, with the application name text overlaid in &lt;br/&gt;the bottom left corner. &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qBdc02s06b4DXhgkFweo-223">
           <mxGeometry x="65.81" y="21.25" width="424.19" height="127.5" as="geometry" />
         </mxCell>
       </root>
